@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .title {
+            color: red;
+        }
+
+        .container {
+            height: 500px;
+            border: 1px solid black;
+            display: flex;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 20px;
+            align-content: flex-start;
+        }
+
+        .item {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="title">
+        Hello flexbox
+    </h1>
+
+
+    <div class="container">
+        <h1 class="item logo">item 1</h1>
+        <h1 class="item">item 2</h1>
+        <h1 class="item">item 3</h1>
+        <h1 class="item">item 4</h1>
+        <h1 class="item">item 5</h1>
+        <h1 class="item">item 6</h1>
+        <h1 class="item">item 7</h1>
+        <h1 class="item">item 8</h1>
+        <h1 class="item">item 9</h1>
+        <h1 class="item">item 10</h1>
+
+    </div>
+</body>
+
+</html>
